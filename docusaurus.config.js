@@ -8,13 +8,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Nand2Tetris study docs",
   tagline: "Nand2Tetris study documents.",
-  url: "https://github.com",
-  baseUrl: "/",
+  url: "https://neu-ru.github.io",
+  baseUrl: "/nand2tetris-study/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "neu-ru",
   projectName: "nand2tetris-study",
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: "kr",
