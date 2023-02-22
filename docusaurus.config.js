@@ -11,12 +11,12 @@ const katex = require('rehype-katex');
 const config = {
   title: "Nand2Tetris study docs",
   tagline: "Nand2Tetris study documents.",
-  url: "https://neu-ru.github.io",
+  url: "https://nook-team.github.io",
   baseUrl: "/nand2tetris-study/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "neu-ru",
+  organizationName: "nook-team",
   projectName: "nand2tetris-study",
   trailingSlash: false,
 
@@ -32,7 +32,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/neu-ru/nand2tetris-study/tree/main/",
+          editUrl: "https://github.com/nook-team/nand2tetris-study/tree/main/",
           routeBasePath: "/",
           remarkPlugins: [math],
           rehypePlugins: [katex]
@@ -66,7 +66,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/neu-ru/nand2tetris-study",
+            href: "https://github.com/nook-team/nand2tetris-study",
             label: "GitHub",
             position: "right",
           },
